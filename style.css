@@ -207,12 +207,12 @@ html, * {
     transform: translate(-50%, -50%);
 }
 .box_loader_gear svg {
-    animation: test 5s 0s infinite ease-out;
+    animation: loader_gear 5s 0s infinite ease-out;
 }
 
 
 
-@keyframes test {
+@keyframes loader_gear {
     0% {
         transform: rotate(-360deg);
     }
