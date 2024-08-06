@@ -199,3 +199,24 @@ html, * {
         }
       }
     
+/* --------------------- 6 */
+.box_loader_gear {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box_loader_gear svg {
+    animation: test 5s 0s infinite ease-out;
+}
+
+
+
+@keyframes test {
+    0% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
