@@ -167,4 +167,35 @@ html, * {
 
 
 
-
+/* -------------- 5 */
+.box_loader_wave {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
+}
+.loader_wave {
+    height: 25px;
+    width: 25px;
+    background: blue;
+    border-radius: 50%;
+    /* animation: loader-anim 0.3s infinite 0s ease-out alternate; */
+    }
+.loader_wave_1 {
+    animation: loader-anim 0.3s infinite 0s ease-out alternate;
+}
+.loader_wave_2 {
+    animation: loader-anim 0.3s infinite 0.05s ease-out alternate;
+}
+.loader_wave_3 {
+    animation: loader-anim 0.3s infinite 0.1s ease-out alternate;
+}
+    
+    @keyframes loader-anim {
+        from {
+          transform: translateY(-30px);
+        }
+      }
+    
