@@ -220,3 +220,49 @@ html, * {
         transform: rotate(360deg);
     }
 }
+
+/* ------------- 7 */
+.box_loader_square_3 .loader_square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    background: #000;
+    animation: loader_square 5s 0s infinite ease-out;
+}
+@keyframes loader_square {
+    0% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* -------- 8 */
+.box_loader_square_4 .loader_square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    /* background: #6c151500; */
+    animation: loader_square_2 4s 0s infinite ease-out;
+    /* border: 1px solid #000; */
+}
+@keyframes loader_square_2 {
+    25% {
+        border-left: 1px solid #000;
+    }
+    50% {
+        border-top: 1px solid #000;
+    }
+    75% {
+        border-right:  1px solid #000;
+    }
+    100% {
+        border-bottom: 1px solid #000;
+    }
+}
