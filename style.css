@@ -266,3 +266,57 @@ html, * {
         border-bottom: 1px solid #000;
     }
 }
+
+/* 9 */
+.box_loader_pulse {
+    height: 100%;
+    width: 100%;
+    background: #000;
+    animation: loader_pulse 22s 0s infinite ease;
+}
+@keyframes loader_pulse {
+    0% {
+        background: red;
+    }
+    10% {
+        background: blue;
+    }
+    20% {
+        background: rgb(30, 128, 72);
+    }
+    30% {
+        background: rgb(255, 153, 0);
+    }
+    40% {
+        background: rgb(255, 0, 43);
+    }
+    50% {
+        background: rgb(0, 255, 217);
+    }
+    60% {
+        background: rgb(85, 71, 205);
+    }
+    70% {
+        background: rgb(241, 241, 241);
+    }
+    80% {
+        background: rgb(16, 23, 22);
+    }
+    90% {
+        background: rgb(174, 180, 18);
+    }
+    100% {
+        background: rgb(180, 18, 102);
+    }
+}
+.box_loader_pulse h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+/* ------------ 10 */
