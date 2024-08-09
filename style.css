@@ -2,6 +2,9 @@ html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}body{margin:0;p
 html, * {
     box-sizing: border-box;
 }
+body {
+    font-family: sans-serif;
+}
 
 #loader_window {
     height: 100vh;
@@ -320,3 +323,51 @@ html, * {
 }
 
 /* ------------ 10 */
+
+.container_loader {
+    height: 100%;
+    width: 100%;
+    background: #dce975;
+    animation: loader_loading 15s 0s ease;
+}
+.container_loader h1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes loader_loading {
+    from {
+        width: 0%;
+    }
+}
+
+/* 11 */
+
+.loader_bar {
+    width: 500px;
+    height: 25px;
+    /* background: #000; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+.loader_bar_complet {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: rgb(103, 224, 252);
+    animation: loader_bar_1 10s 0s ease-in-out;
+}
+@keyframes loader_bar_1 {
+    from {
+        width: 5%;
+    }
+}

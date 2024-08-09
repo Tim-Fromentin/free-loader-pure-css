@@ -22,4 +22,19 @@
 - Loader 6
 ![loader 6](./result/6.gif)
 
+- Loader 7
+![loader 7](./result/7.gif)
+
+- Loader 8
+![loader 8](./result/8.gif)
+
+- Loader 9
+![loader 9](./result/9.gif)
+
+- Loader 10
+![loader 10](./result/10.gif)
+
+- Loader 11
+![loader 11](./result/11.gif)
+
 
